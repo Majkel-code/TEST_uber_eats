@@ -31,9 +31,4 @@ def driver():
 @fixture(scope='session')
 def pages(driver):
 	print("Get driver")
-	page_objects = Pages(driver)
-	base_page = BasePage(driver)
-	return {
-		"pages": page_objects,
-		"base_page": base_page
-	}
+	return Pages(driver)

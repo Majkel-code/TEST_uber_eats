@@ -8,8 +8,6 @@ class BasePage:
 	def __init__(self, driver):
 		self._wait = WebDriverWait(driver, timeout=30)
 		self._driver = driver
-		self._restaurant = ''
-		self._restaurants_list = []
 
 	@return_result_and_error
 	def wait(self, class_name):
@@ -24,3 +22,9 @@ class BasePage:
 
 	def search_by_data_test_id(self, data_test_id_value):
 		return self._driver.find_element(By.XPATH, value=f"//[@data-testid='{data_test_id_value}']")
+
+	def find_button_by_text(self, button_text):
+		all_buttons = self._driver.find_elements(By.TAG_NAME, "button")
+		for button in all_buttons:
+			if button_text in button.text:
+				return button

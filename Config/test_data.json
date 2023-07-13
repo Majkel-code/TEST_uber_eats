@@ -1,6 +1,4 @@
 {
   "search_address": "Krakow Tischnera Office",
-  "expected_restaurant": "McDonald",
-  "data_test_id": "store-card",
-  "button_class": "i8"
+  "expected_restaurant": "McDonald"
 }

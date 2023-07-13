@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23626ad8-977a-4054-9e5a-8dc279e0e394" name="Changes" comment="Review after pytest.">
-      <change afterPath="$PROJECT_DIR$/Config/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/read_json_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/load_new_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/restaurant_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/uber_search_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_search_uber_eats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_new_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read_json_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Config/test_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_search_uber_eats.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uber_search_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/test_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Config/test_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/restaurant_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/restaurant_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/uber_search_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/uber_search_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_search_uber_eats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_search_uber_eats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_search_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/uber_search_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +37,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PROJECTS/script_auto_uber_eats&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests" />
       <recent name="D:\PROJECTS\TEST_uber_eats\Tests" />
       <recent name="D:\PROJECTS\TEST_uber_eats\Config" />
       <recent name="D:\PROJECTS\TEST_uber_eats\Pages" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="pytest for test_search_uber_eats.test_uber_start_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="TEST_uber_eats" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search_uber_eats.test_uber_start_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_search_uber_eats.test_uber_start_page" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -1,6 +1,6 @@
-from uber_search_page import UberSearchPage
-from restaurant_list import RestaurantsList
-from load_new_page import LoadPage
+from Pages.uber_search_page import UberSearchPage
+from Pages.restaurant_list import RestaurantsList
+from Pages.load_new_page import LoadPage
 
 
 class Pages:

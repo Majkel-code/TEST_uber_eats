@@ -20,10 +20,10 @@ class UberSearchPage(BasePage):
 		self._wait.until(EC.element_to_be_clickable((By.ID, "location-typeahead-home-item-0")))
 		return True
 
+	@property
 	@return_result_and_error
-	def new_page_button(self, class_name):
-		self._wait.until(EC.element_to_be_clickable((By.CLASS_NAME, class_name)))
-		return True
+	def new_page_button(self):
+		return self.find_button_by_text("Pokaż więcej")
 
 	def button(self, class_name):
 		return self._driver.find_element(By.CLASS_NAME, class_name)
