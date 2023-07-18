@@ -18,7 +18,7 @@ class UberSearchPage(BasePage):
 	def search_results_list(self):
 		try:
 			if self._wait.until(EC.element_to_be_clickable((By.ID, "location-typeahead-home-item-0"))):
-				return {'result': True, 'error': None}
+				return {'result': True, 'error': []}
 		except Exception as e:
 			return {'result': False, 'error': e}
 
