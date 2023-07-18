@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23626ad8-977a-4054-9e5a-8dc279e0e394" name="Changes" comment="Review after pytest." />
+    <list default="true" id="23626ad8-977a-4054-9e5a-8dc279e0e394" name="Changes" comment="Review after pytest.">
+      <change afterPath="$PROJECT_DIR$/Config/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config/read_json_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/load_new_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/restaurant_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/uber_search_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_search_uber_eats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_new_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_json_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Config/test_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_search_uber_eats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uber_search_page.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +50,13 @@
     &quot;last_opened_file_path&quot;: &quot;D:/PROJECTS/script_auto_uber_eats&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROJECTS\TEST_uber_eats\Tests" />
+      <recent name="D:\PROJECTS\TEST_uber_eats\Config" />
+      <recent name="D:\PROJECTS\TEST_uber_eats\Pages" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
